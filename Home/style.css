@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(77, 77, 77);
+    color: #fff;
+    font-family: 'Bebas Neue';
+    width: 100%;
+    height: 100px;
+}
+
+/* .nav-bar:hover {
+    background-color: #555;
+} */
+
+.nav-bar ul a{
+    text-decoration: none;
+    margin-left: 12px;
+    margin-bottom: -30px;
+}
+
+.col-6 ul a {
+    margin-left: 15px;
+    font-size: large;
+    padding: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.col-6 ul {
+    margin-left: 600px;
+    margin-top: -35px;
+}
+
+body{
+    background-image: url(../pexels-erik-mclean-4481048.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+
+.text1{
+    margin-top: -5px;
+    margin-left: 30px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.pic-text1{
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Bebas Neue';
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.pic-text2{
+    color: #000;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.main-pic{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.span{
+    margin-top: 50px;
+    color: red;
+}
